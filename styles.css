@@ -1,3 +1,10 @@
+/* FONTS */
+@font-face {
+    font-family: "VALORANT";
+    src: url(./fonts/Valorant\ Font.ttf);
+}
+
+
 /* GENERALES */
 * {
     margin: 0;
@@ -22,9 +29,8 @@
     max-width: 1200px;
     min-height: 500px;
     height: auto;
-    background-color: #f8eded;
     box-shadow: 20px 20px 30px #4e3b24;
-    background-image: url("./img/One-Piece-Live-action_1.jpg");
+    background-image: url("./img/Fondo\ de\ pantalla\ Valorant\ Logo.jfif");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,28 +38,28 @@
 }
 
 #wrap h1{
-    color: red;
+    width: 100%;
+    height: auto;
+    color: #fd4150;
     text-align: center;
-    position: relative;
-    top: 40px;
+    font-size: 50px;
+    font-family: "VALORANT";
+    padding-top: 20PX;
 }
 
 #tarjetas{
     width: 100%;
-    height: auto;
-    min-height: 500px;
+    max-height:500px ;
+    min-height: 400px;
     background-color:  transparent;
     position: relative;
-    display:flex ;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
+
 }
 
 .tarjetas{
