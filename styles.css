@@ -68,6 +68,7 @@
    background-color: slateblue;
    border-radius: 10px;
    object-fit: cover;
+   overflow: hidden;
 }
 
 #tarjetas #killyou img{
@@ -75,6 +76,7 @@
     height: 360px;
     object-fit: cover;
     border-radius: 20px;
+    position: absolute;
 }
 
 #tarjetas #Gecco img{
@@ -82,6 +84,7 @@
     height: 360px;
     object-fit: cover;
     border-radius: 20px;
+    position: absolute;
 }
 
 #tarjetas #Cypher img{
@@ -89,4 +92,26 @@
     height: 360px;
     object-fit:fill;
     border-radius: 10px;
+    position: absolute;
+}
+
+
+
+#info{
+    width: 250px;
+    height: 160px;
+    background-color: rgba(255, 255, 255, 0.075);
+    backdrop-filter: blur(10px);
+    position:relative;
+    top: 446px;
+    opacity: 0;
+    transition: ease 500ms;
+}
+
+
+/* hover */
+
+.tarjetas:hover #info{
+    top: 223px;
+    opacity: 1;
 }
